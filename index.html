@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Sky - Moodslider</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    
+    <script src="scripts/jQuery/jQuery.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    
+    <!-- CSS for this page -->
+    <link href="styles/styles.css" rel="stylesheet">
+     
+</head>
+
+<body>
+    <!-- Header -->  
+    <header class="header">
+        <div class="headertext">
+          <img class="logo" src="images/sky_logo.png">
+           
+        </div>
+   
+    </header>
+    <div class="topbar" >
+        <h1 style="color:black">Welcome to Moodslider</h1>
+        <h3>How are you feeling today?</h3>   
+        <div class="btnUploadContent">
+            Upload Content: 
+            <input type="file" class="uploadContent" accept="text/xml">
+        </div>
+    </div>
+    
+    
+    
+    <!-- Main Body -->
+    <div class="main-container">
+        <!-- Sliders -->
+        <div class="container">
+            <div class="sliders">
+                <div class="slider-div sad-happy">
+				    <p class="col-sm-3 col-lg-3">Sad</p>
+                    <input class="slider-range" name="sad-happy" type="range" min="0" max="1" step="0.5">
+                    <p class="col-sm-3 col-lg-3">Happy</p>
+                </div>
+                                
+                <div class="slider-div tired-energetic">
+				    <p class="col-sm-3 col-lg-3">Tired</p>
+                    <input class="slider-range" name="tired-energetic" type="range" min="2" max="3" step="0.5">
+                    <p class="col-sm-3 col-lg-3">Energetic</p>
+                </div>
+    
+                <div class="slider-div restless-calm">   
+				    <p class="col-sm-3 col-lg-3">Restless</p>
+                    <input class="slider-range" name="restless-calm" type="range" min="4" max="5" step="0.5">
+                    <p class="col-sm-3 col-lg-3">Calm</p>
+                    </div>   
+                               
+                <div class="slider-div scared-fearless">
+				    <p class="col-sm-3 col-lg-3">Scared</p>
+                    <input class="slider-range" name="scared-fearless" type="range" min="6" max="7" step="0.5">
+                    <p class="col-sm-3 col-lg-3">Fearless</p>
+                </div> 
+            </div>
+        </div>
+         
+            
+        <!-- Movie text and Images -->
+        <table class="table" style="width:100%">
+            <tr>
+            </tr>
+            <tr>
+               <td><img class="img-movie" id="img0" src="images/blank.png" align="middle"></td>
+               <td><img class="img-movie" id="img1" src="images/blank.png"></td> 
+               <td><img class="img-movie" id="img2" src="images/blank.png"></td>
+               <td><img class="img-movie" id="img3" src="images/blank.png"></td>
+               <td><img class="img-movie" id="img4" src="images/blank.png"></td>
+            </tr>
+            <tr>
+                <td><p class="name-movie" id="name-0">No content</p></td>
+                <td><p class="name-movie" id="name-1">No content</p></td>
+                <td><p class="name-movie" id="name-2">No content</p></td>
+                <td><p class="name-movie" id="name-3">No content</p></td>
+                <td><p class="name-movie" id="name-4">No content</p></td>
+            </tr>
+        </table> 
+    </div> 
+    
+</body>
+    <!-- JavaScript file -->
+    <script src="scripts/functions.js"></script>
+    
+    <script src="scripts/jQuery/jQuery.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+</html>

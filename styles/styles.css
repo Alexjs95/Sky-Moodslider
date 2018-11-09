@@ -1,0 +1,56 @@
+.logo {
+    float: left;
+    padding-left: 20px;
+    padding-top: 20px;
+    height: 175px;
+    width: 300px;
+}
+
+.topbar {
+    padding-top: 20px;
+    padding-left: 400px;
+   
+}
+.sliders {
+    margin-top: 15px;
+    padding: 20px;
+}
+
+.slider-div {
+    display: flex;
+    text-align: center;
+    padding: 10px;
+}
+
+.slider-div {
+    display: flex;
+    text-align: center;
+    padding: 10px; 
+}
+
+.slider-range {
+    width: 50% !important ;
+}
+
+.p {
+    display: inline-block;
+}
+
+.img-movie {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 300px;
+}
+
+.name-movie {
+    text-align: center;
+}
+
+.table {
+    align-self: center;
+}
+
+
+    
